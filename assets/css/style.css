@@ -37,3 +37,63 @@ body {
 header {
   margin-bottom: 7rem;
 }
+
+.logo svg {
+  width: 120px;
+  height: 50px;
+}
+
+/* Hero */
+
+.hero {
+  text-align: center;
+}
+
+.hero-img {
+  margin-bottom: 6rem;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+h1 {
+  color: var(--Color-White);
+
+  font-family: var(--Font-Family-Headings);
+  font-size: 2.4rem;
+
+  margin-bottom: 1.6rem;
+}
+
+p {
+  color: var(--Color-White);
+
+  font-size: 1.6em;
+  font-family: var(--Font-Family-Body);
+  font-weight: 400;
+  line-height: 24px;
+
+  margin-bottom: 2.4rem;
+}
+
+.btn {
+  color: var(--Color-Violet-2);
+  background-color: var(--Color-White);
+
+  font-size: 1.6rem;
+  font-family: var(--Font-Family-Headings);
+  text-decoration: none;
+
+  border-radius: 20px;
+
+  display: inline-block;
+
+  padding: 1.1rem 7.5rem;
+}
+
+.btn:hover {
+  color: var(--Color-White);
+  background: var(--Color-Soft-Magenta);
+  box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+}
