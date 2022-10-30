@@ -5,9 +5,11 @@
 /* Variables */
 
 :root {
-  --Color-Violet: #674baf;
+  --Color-Violet-1: #674baf;
+  --Color-Violet-2: #684bb1;
   --Color-Soft-Magenta: #e882e8;
   --Color-White: #fff;
+
   --Font-Family-Headings: "Open Sans", sans-serif;
   --Font-Family-Body: "Poppins", sans-serif;
 }
@@ -22,4 +24,10 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background: var(--Color-Violet-2) url(../images/bg-mobile.svg) no-repeat
+    center/cover;
+  padding: 4rem;
 }
