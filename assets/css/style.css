@@ -31,3 +31,9 @@ body {
     center/cover;
   padding: 4rem;
 }
+
+/* Header */
+
+header {
+  margin-bottom: 7rem;
+}
