@@ -122,3 +122,19 @@ footer .fa-brands:hover {
 footer .fa-brands {
   margin-right: 1rem;
 }
+
+@media (min-width: 1440px) {
+  body {
+    padding: 6.4rem 8rem 4rem 8rem;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-text {
+    text-align: left;
+  }
+}
