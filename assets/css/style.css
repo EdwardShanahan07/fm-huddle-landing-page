@@ -98,3 +98,27 @@ p {
   background: var(--Color-Soft-Magenta);
   box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .fa-brands {
+  color: #fff;
+  font-size: 1.5rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+
+  padding: 1rem;
+}
+
+footer .fa-brands:hover {
+  color: #ff52c1;
+  border-color: #ff52c1;
+}
+
+footer .fa-brands {
+  margin-right: 1rem;
+}
