@@ -136,5 +136,15 @@ footer .fa-brands {
 
   .hero-text {
     text-align: left;
+    flex-basis: 45%;
+  }
+
+  .hero-img {
+    flex-basis: 45%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-end;
   }
 }
