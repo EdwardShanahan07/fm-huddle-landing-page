@@ -125,6 +125,8 @@ footer .fa-brands {
 
 @media (min-width: 1440px) {
   body {
+    background: var(--Color-Violet-2) url(../images/bg-mobile.svg) no-repeat
+      center/cover;
     padding: 6.4rem 8rem 4rem 8rem;
   }
 
